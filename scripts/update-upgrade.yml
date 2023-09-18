@@ -1,5 +1,4 @@
-- hosts: demo
-
+- hosts: all
   become: yes
   tasks:
     # Upgrade packages
